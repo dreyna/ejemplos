@@ -9,12 +9,12 @@ package vista;
  *
  * @author alum.fial1
  */
-public class raizSexta extends javax.swing.JFrame {
+public class raizSextaJhoezerCardenas extends javax.swing.JFrame {
 
     /**
      * Creates new form raizSexta
      */
-    public raizSexta() {
+    public raizSextaJhoezerCardenas() {
         initComponents();
     }
 
@@ -158,20 +158,21 @@ public class raizSexta extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(raizSexta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(raizSextaJhoezerCardenas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(raizSexta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(raizSextaJhoezerCardenas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(raizSexta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(raizSextaJhoezerCardenas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(raizSexta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(raizSextaJhoezerCardenas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new raizSexta().setVisible(true);
+                new raizSextaJhoezerCardenas().setVisible(true);
             }
         });
     }
