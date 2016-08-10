@@ -17,6 +17,8 @@ public class RaizCuadrada_Brandux extends javax.swing.JFrame {
     public RaizCuadrada_Brandux() {
         initComponents();
         setLocationRelativeTo(null);
+        txtResultado.setEditable(false);
+
     }
 
     /**
@@ -109,10 +111,10 @@ public class RaizCuadrada_Brandux extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
        
+        
         double a = Double.parseDouble(txtValor.getText());
         
        double resulta = Math.sqrt(a);
-        
         txtResultado.setText("La raiz es:" + resulta);
         
         
